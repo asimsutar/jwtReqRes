@@ -34,7 +34,7 @@ This project was developed to gain hands-on experience in **Spring Security, JWT
 | JWT | Latest |
 | Spring Data JPA | Latest |
 | Hibernate | Latest |
-| MySQL / H2 | Database |
+| MySQL | Database |
 | Maven | Build Tool |
 
 ---
@@ -57,41 +57,6 @@ Security Layer    → JWT & Spring Security Config
 Utility Layer     → JWT Token Generation & Validation
 
 Filter Layer      → JWT Authentication Filter
-```
-
----
-
-## 📂 Project Structure
-
-```
-src/main/java/com/example/jwt
-
-├── controller
-│     └── AuthController.java
-│
-├── service
-│     └── AuthService.java
-│
-├── repository
-│     └── UserRepository.java
-│
-├── entity
-│     └── User.java
-│
-├── dto
-│     ├── AuthRequest.java
-│     └── AuthResponse.java
-│
-├── config
-│     └── SecurityConfig.java
-│
-├── filter
-│     └── JwtAuthenticationFilter.java
-│
-├── util
-│     └── JwtUtil.java
-│
-└── JwtApplication.java
 ```
 
 ---
